@@ -56,15 +56,63 @@
 		B0248C2C26FE2F1300C76F1F /* PyaterochkaExampleProject */ = {
 			isa = PBXGroup;
 			children = (
-				B0248C2D26FE2F1300C76F1F /* AppDelegate.swift */,
-				B0248C2F26FE2F1300C76F1F /* SceneDelegate.swift */,
-				B0248C3126FE2F1300C76F1F /* ViewController.swift */,
-				B0248C3326FE2F1300C76F1F /* Main.storyboard */,
-				B0248C3626FE2F1700C76F1F /* Assets.xcassets */,
-				B0248C3826FE2F1700C76F1F /* LaunchScreen.storyboard */,
-				B0248C3B26FE2F1700C76F1F /* Info.plist */,
+				B0248C4126FE2FD700C76F1F /* Resources */,
+				B0248C4226FE2FDE00C76F1F /* Source */,
 			);
 			path = PyaterochkaExampleProject;
+			sourceTree = "<group>";
+		};
+		B0248C4126FE2FD700C76F1F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0248C4426FE302700C76F1F /* Configs */,
+				B0248C4326FE301500C76F1F /* Storyboards */,
+				B0248C3626FE2F1700C76F1F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B0248C4226FE2FDE00C76F1F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B0248C4526FE303000C76F1F /* App */,
+				B0248C4626FE303700C76F1F /* Scenes */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B0248C4326FE301500C76F1F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B0248C3326FE2F1300C76F1F /* Main.storyboard */,
+				B0248C3826FE2F1700C76F1F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B0248C4426FE302700C76F1F /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				B0248C3B26FE2F1700C76F1F /* Info.plist */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		B0248C4526FE303000C76F1F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B0248C2D26FE2F1300C76F1F /* AppDelegate.swift */,
+				B0248C2F26FE2F1300C76F1F /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B0248C4626FE303700C76F1F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B0248C3126FE2F1300C76F1F /* ViewController.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +336,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RW47C22KAD;
-				INFOPLIST_FILE = PyaterochkaExampleProject/Info.plist;
+				INFOPLIST_FILE = PyaterochkaExampleProject/Resources/Configs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RW47C22KAD;
-				INFOPLIST_FILE = PyaterochkaExampleProject/Info.plist;
+				INFOPLIST_FILE = PyaterochkaExampleProject/Resources/Configs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
